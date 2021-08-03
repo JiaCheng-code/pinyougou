@@ -43,3 +43,25 @@
 .shortcut li {
     float: left;
 }
+/*顶部快捷导航end*/
+/*header start*/
+.header {
+    position: relative;
+    height: 105px;
+    background: steelblue;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+}
+.logo h1 a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url("../img/logo.png");
+}
