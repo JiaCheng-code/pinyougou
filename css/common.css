@@ -70,3 +70,20 @@
     top: 25px;
     left: 248px;
 }
+.text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    padding-left: 10px;
+    color: #ccc;
+}
+.btn {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background: #b1191a;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
