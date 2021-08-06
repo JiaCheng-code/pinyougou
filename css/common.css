@@ -127,3 +127,63 @@
     color: #fff;
     border-radius: 7px 7px 7px 0;
 }
+/*header end*/
+/*end start*/
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.dorpdown {
+    height: 45px;
+    width: 209px;
+    background: pink;
+}
+.dorpdown .dt {
+    width: 100%;
+    height: 100%;
+    background: #BC2715;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.dorpdown .dd {
+    height: 465px;
+    background:#c81623 ;
+    margin-top: 2px;
+}
+.menu_item {
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    border: 1px;
+    padding: 0 10px;
+}
+.menu_item:hover,.menu_item:hover a {
+    background: #fff;
+    color: #b1191a;
+}
+.menu_item a {
+    color: #fff;
+    font-size: 14px;
+}
+.menu_item i {
+    font-family: icomoon;
+    font-size: 18px;
+    color: #fff;
+    float: right;
+}
+.navitems {
+    margin-left: 10px;
+}
+.navitems li {
+    float: left;
+}
+.navitems li a {
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #333;
+}
+/*nav end*/
