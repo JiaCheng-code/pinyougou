@@ -103,4 +103,38 @@
     color: #fff;
 }
 /*列表页内容区域 end*/
-/*分页start*/
+/*分页 start*/
+.page {
+    margin: 40px 0;
+    text-align: center;
+}
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    line-height: 36px;
+}
+.page_num .page_num_prev,
+.page_num .page_num_next{
+    width: 83px;
+}
+.page_num .current,
+.page_num .dotted {
+    border: 1px transparent;
+    background: #fff;
+}
+.page_skip input {
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+}
+/*分页 end*/
