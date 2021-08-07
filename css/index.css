@@ -1,3 +1,4 @@
+/*main start*/
 .main {
     width: 980px;
     height: 455px;
@@ -123,3 +124,40 @@
 .bargain {
     height: 75px;
 }
+/*main end*/
+/*推荐服务模块 start*/
+.recommend {
+    height: 163px;
+    background-color: pink;
+    margin-top: 10px;
+}
+.recommend_hd {
+    width: 200px;
+    height: 163px;
+    background: #5c5251;
+    text-align: center;
+}
+.recommend_hd img {
+    margin: 30px 0 10px 0;
+}
+.recommend_hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.recommend_bd {
+    width: 1000px;
+    height: 163px;
+    background: #ebebeb;
+}
+.recommend_bd li {
+    float: left;
+    width: 249px;
+    border-right: 1px solid #ccc;
+    height: 145px;
+    margin-top: 10px;
+}
+.recommend_bd .list {
+    border-right: 0;
+}
+/*推荐服务模块 end*/
