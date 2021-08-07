@@ -1,3 +1,25 @@
+/*固定电梯导航 start*/
+.fixedtool {
+    position: fixed;
+    top: 350px;
+    left: 50%;
+    width: 66px;
+    margin-left: -676px;
+    background: #fff;
+}
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.fixedtool .current {
+    background: #c81623;
+    color: #fff;
+}
+/*固定电梯导航 end*/
 /*main start*/
 .main {
     width: 980px;
