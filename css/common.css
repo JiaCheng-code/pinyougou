@@ -157,11 +157,16 @@
     color: #fff;
     border: 1px;
     padding: 0 10px;
+    transition: all 0.2s ease;
 }
+
 .menu_item:hover,.menu_item:hover a {
     background: #fff;
     color: #b1191a;
 }
+.menu_item:hover {
+     padding-left: 20px;
+ }
 .menu_item a {
     color: #fff;
     font-size: 14px;
