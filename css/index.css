@@ -1,0 +1,125 @@
+.main {
+    width: 980px;
+    height: 455px;
+    /*background: pink;*/
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    overflow: hidden;
+}
+.arrow_l,
+.arrow_r{
+    font-family: "icomoon";
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.arrow_r {
+    right: 0;
+
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+     width: 8px;
+     height: 8px;
+     border: 2px solid rgba(255,255,255,0.5);
+     margin: 0 3px;
+     border-radius: 50%;
+ }
+.current {
+    background: #fff;
+}
+.newflash {
+    width: 250px;
+    height: 455px;
+    /*background: steelblue;*/
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+    /*background: pink;*/
+ }
+.news_hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+.news_hd a {
+    float: right;
+    font-size: 12px;
+    font-family: icomoon;
+}
+.news_bd {
+    padding:10px 0 0 15px;
+}
+.news_bd li {
+    height: 23px;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    /*background-color: purple;*/
+    border: 1px solid #ccc;
+    border-top: none;
+
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    overflow: hidden;
+    display: block;
+    height: 100%;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url("../img/jian.jpg") no-repeat;
+}
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+}
+.service_ico_huafei {
+    background: url("../img/icons.png") no-repeat -17px -16px;
+}
+.service_ico_feiji {
+    background: url("../img/icons.png") no-repeat -78px -16px;
+}
+.bargain {
+    height: 75px;
+}
