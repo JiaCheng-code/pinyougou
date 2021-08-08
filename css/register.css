@@ -1,0 +1,120 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fr {
+    float: right;
+}
+.header {
+    height: 82px;
+    border-bottom: 2px solid #e12228;
+}
+.logo {
+    padding-top: 15px;
+}
+.registerarea {
+    height: 520px;
+    border:1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding-left: 10px;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 18px;
+}
+.registerarea  em {
+    font-size: 14px;
+}
+.registerarea  a {
+    color: #e60012;
+    font-size: 14px;
+}
+.reg_form {
+    width: 600px;
+    height: 420px;
+    /*background-color: pink;*/
+    margin: 40px auto 0;
+}
+.reg_form li {
+    margin-bottom:15px ;
+}
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+.reg_form .inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.error{
+    color: #e60012;
+    margin-left: 10px;
+}
+.success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+.error_icn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/error.png") no-repeat center;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+.success_icn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/success.png") no-repeat center;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+.safe {
+    padding-left: 187px;
+    color:#b2b2b2 ;
+}
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 100px;
+}
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.agree a {
+    font-size: 12px;
+    color: #1ba1e6;
+}
+.over {
+    width: 300px;
+    height: 34px;
+    background: #c81623;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    margin: 30px 0 0 130px;
+}
